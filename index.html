@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+        
+        <!--font links-->
+        <link href='https://fonts.googleapis.com/css?family=Lato|Titillium Web|Coda' rel='stylesheet'>
+        
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+        
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+        <header>
+            <div>
+                <h2>MATERNAL MORTALITY</h2>
+                <h4>GLOBAL DISPARITIES 2000-2016</h4>
+            </div>
+        </header>
+        
+        <div id="info">
+            <p>
+                <b>Maternal Mortality Rate (MMR)</b> is defined as: <em>“The annual number of female deaths from any cause related to or aggravated by pregnancy or its management (excluding accidental or incidental causes) during pregnancy and childbirth or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, expressed per 100,000 live births, for a specified time period.” </em><sup><small> 2</small></sup>
+            </p>
+            <p>
+                Research shows that the majority of these deaths are preventable; with access to quality health care services, proper supplies, and the presence of a skilled  proffessionals (midwives, doctors, & nurses) at the birth, chances of complication decrease drastically.<sup><small>2</small></sup>  Unfortunately, there are large inequalities in the access to such care worldwide, and this is visible in the global MMR disparities: "94 percent of all maternal deaths still occur in low- and lower middle-income countries."<sup><small> 4</small></sup>
+            </p>
+            <p>
+                In 2015, as a part of the Sustainable Development Goals (SDG), The United Nations set a target for reducing the global maternal mortality rate to less than 70 per 100,000 births by 2030.<sup><small>3</small></sup> From 2000 to 2016 the global MMR decreased 37% from 342 to 214 deaths per 100,000 live births.<sup><small>1</small></sup> While this does show improvement, it is nowhere near enough to reach the SDG by 2030.
+            </p>
+            <p>
+                Use the map below to explore trends in maternal mortality around the world from 2000-2016.
+            </p>
+        </div>
+        
+        <div id="map"></div>
+        
+        
+        <div id="citation">
+            <p-small>
+                Sources:
+            </p-small>
+            <div id="bullets">
+                <p-small>
+                    (1) UNDESA Statistics Division. (2022, February). Maternal mortality ratio [Data file]. Retrieved from: https://gender-data-hub-2-undesa.hub.arcgis.com/datasets/f48af8f478074a0f92b4844ddaefbb26_0/about
+                </p-small>
+                <p-small> 
+                    (2) UNICEF. (2021, September). Maternal mortality rates and statistics. UNICEF Data. Retrieved from https://data.unicef.org/topic/maternal-health/maternal-mortality/# 
+                </p-small>
+                <p-small>
+                    (3) World Health Organization. (2019, September 19). Maternal mortality. World Health Organization. Retrieved from: https://www.who.int/news-room/fact-sheets/detail/maternal-mortality
+                </p-small>
+                <p-small>
+                    (4) UNICEF. (2021, July 20). Trends in maternal mortality 2000-2017. UNICEF Data. Retrieved from: https://data.unicef.org/resources/trends-maternal-mortality-2000-2017/
+                </p-small>
+            </div>
+            
+        </div>
+        
+        <footer>
+            <div>
+                <p-small>
+                    <small>Made by Alicia Wood, 10/18/2022 for UW-Madison's GEOG 575 course.</small>
+                </p-small>
+            </div>
+        </footer>
+
+			
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+
+		<!--put your external script links here-->
+        <script type="text/javascript" src="lib/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

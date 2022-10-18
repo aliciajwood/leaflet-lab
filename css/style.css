@@ -1,0 +1,137 @@
+/* Stylesheet by Alicia Wood, 2022 */
+
+body {
+    font-family: 'Titillium Web', serif;
+    background-color: #FAFAFA;
+    color: #242424;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #5c0000;
+    color: #fff9f9;
+    font-weight: 400;
+    font-size:22pt;
+    padding: 5px;
+    text-align: center;
+    max-width:none;
+}
+
+footer {
+    background-color: #5c0000;
+    color: #fff9f9;
+    text-align: right;
+    margin-top: 10px;
+}
+
+#bullets {
+    padding-left:20px;
+}
+
+p {
+    font-size: 12pt;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:8px;
+    
+}
+
+p-small {
+    font-size:10pt;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    display:block;
+}
+
+h2 {
+    margin:0;
+    letter-spacing:2px;
+}
+
+h4 {
+    margin:0;
+    font-weight:300;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+#map {
+    height: 600px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Titillium Web', serif; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container {
+    width: 280px;
+    height: 160px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.filter-control-container {
+    width: 200px;
+    height: 160px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+#temporal-legend{
+    font-weight: bold;
+    font-size: 13pt;
+    text-align: center;
+}
+
+.range-slider {
+    width: 200px;
+}
+
+.skip{
+    width: 35px;
+    height: 35px;
+}
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
+
+.filter{
+    width: 180px;
+    height: 40px;
+    font-family: 'Titillium Web', serif;
+    line-height: 1.25;
+}
+
+.active {
+    background-color: rgba(255,53,53,0.3);
+    font-weight: bold;
+}
