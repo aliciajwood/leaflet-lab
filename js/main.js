@@ -441,7 +441,7 @@ function createFilter(map, group, layers){
             // lastly create a button for a subset of only features that saw improving MMR from 2000-2016
             var betterButton = L.DomUtil.create('button', 'filter', container);
             $(betterButton).get(0).id = "got-better-pts";
-            $(betterButton).html('where MMR is better in 2016 than 2000');
+            $(betterButton).html('Where MMR is better in 2016 than 2000');
 
             // THIS SECTION STILL NEEDS A LOT OF WORK!!! NOT FUNCTIONAL
             // click listener for buttons
